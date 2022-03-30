@@ -1,0 +1,30 @@
+PUT http://localhost:3001/api/products/6243f607bb58d3f08b4c4e80 
+Content-Type: application/json
+
+  {    
+    "imgUrl": "images/apple_ipadAir.webp",
+    "imgDescription": {
+      "img1": "images/default_image.jpeg",
+      "img2": "images/default_image.jpeg",
+      "img3": "images/default_image.jpeg",
+      "img4": "images/default_image.jpeg",
+      "img5": "images/default_image.jpeg",
+      "img6": "images/default_image.jpeg"
+    },
+    "alt": "Apple iPad Air",
+    "value": "main_promo",
+    "category": "tablets",
+    "promoTitle": "Supercharged by the Apple M1 chip",
+    "productName": "Ipad Air",
+    "shortDescription": "iPad Air lets you immerse yourself in whatever you’re reading, watching, or creating. The 10.9-inch Liquid Retina display features advanced technologies like True Tone, P3 wide color, and an antireflective coating.",
+    "fullDescriptionTitle": "Title here...",
+    "fullDescription": "Reprehenderit consequat excepteur enim nulla in eiusmod. In commodo ea ut Lorem fugiat excepteur cupidatat fugiat ad enim. Aliqua commodo cupidatat et duis irure sint officia laborum velit ex ullamco aute reprehenderit voluptate. Minim ipsum qui do Lorem eu irure. Dolore velit sint et officia non esse mollit reprehenderit ex labore. Est occaecat elit anim quis. Ipsum tempor ipsum fugiat eu dolore non proident ullamco reprehenderit laboris ea enim laboris occaecat.",
+    "price": 777,
+    "available": true,
+    "delivery": "Free",
+    "favorite": false,
+    "inCart": false,
+    "counter": 1,
+    "ratingStars": 2,
+    "id": "6243f607bb58d3f08b4c4e80"
+  }

@@ -1,0 +1,29 @@
+POST http://localhost:3001/api/products 
+Content-Type: application/json
+
+{
+  "imgUrl": "product.imgUrl",
+  "imgDescription": {
+    "img1": "product.img1",
+    "img2": "product.img2",
+    "img3": "product.img3",
+    "img4": "product.img4",
+    "img5": "product.img5",
+    "img6": "product.img6"
+  },
+  "alt": "product.alt",
+  "value": "product.value",
+  "category": "product.category",
+  "promoTitle": "product.promoTitle",
+  "productName": "product.productName",
+  "shortDescription": "product.shortDescription",
+  "fullDescriptionTitle": "product.fullDescriptionTitle",
+  "fullDescription": "product.fullDescription",
+  "price": 999,
+  "available": true,
+  "delivery": "product.delivery",
+  "favorite": true,
+  "inCart": true,
+  "counter": 0,
+  "ratingStars": 0
+}
